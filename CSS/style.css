@@ -26,7 +26,7 @@ body {
 }
 
 .sec-compos {
-    max-width: 400px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,23 +36,25 @@ body {
 }
 
 .textf {
+  color: #FF8C00;
     font-size: 25px;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     /* text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2),
         6px 6px 0px rgba(0, 0, 0, 0.2),
         9px 9px 0px rgba(0, 0, 0, 0.2),
         12px 12px 5px rgba(0, 0, 0, 0.2); */
-        text-shadow: 1px 1px 2px black;
+  /* text-shadow: 0 0 8px rgba(0, 0, 0, 0.4); */
 }
 
 .texte {
+  color: #FF8C00;
     font-size: 15px;
     letter-spacing: 2px;
     /* text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2),
         6px 6px 0px rgba(0, 0, 0, 0.2),
         9px 9px 0px rgba(0, 0, 0, 0.2),
         12px 12px 5px rgba(0, 0, 0, 0.2); */
-        text-shadow: 1px 1px 2px black;
+  /* text-shadow: 0 0 8px rgba(0, 0, 0, 0.4); */
 }
 
 .sec-compo img {
@@ -111,6 +113,17 @@ body {
     100% {
         opacity: 1;
     }
+}
+.srisakdi-regular {
+  font-family: "Srisakdi", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.srisakdi-bold {
+  font-family: "Srisakdi", system-ui;
+  font-weight: 700;
+  font-style: normal;
 }
 
 
